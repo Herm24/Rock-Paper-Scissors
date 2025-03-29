@@ -7,3 +7,9 @@ function getComputerChoice() {
     return "scissors";
   }
 }
+function getHumanChoice() {
+  let choice = prompt("What's your choice?").toLowerCase();
+  return choice;
+}
+let humanScore = 0;
+let computerScore = 0;
